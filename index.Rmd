@@ -14,7 +14,9 @@ description: "Interaktywny podręcznik statystyki"
 
 # Wstęp
 
+W powszechnym przekonaniu utarło się, że wyobraźnia i matematyka nie mają ze sobą nic wspólnego. Gorzej nawet: że sucha, bezduszna matematyka zabija w ludziach kreatywność i twórcze zdolności. Podzielono świat na ścisłowców i humanistów, w czasopismach można znaleźć barwne infografiki o przeciwstawnych półkulach mózgu, a autorzy książek popularnonaukowych przez dwie strony przepraszają i uspokajają czytelników, ilekroć potrzebują przytoczyć jakiś wzór.
 
+A jednak tym, co przeszkadzało mi na większości matematycznych przedmiotów podczas pięciu lat studiów był właśnie brak wyobraźni. 
 
 
 ```{r include=FALSE}
