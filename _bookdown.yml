@@ -1,6 +1,6 @@
 book_filename: "inside-the-box-book"
 language:
   ui:
-    chapter_name: "Chapter "
+    chapter_name: "Rozdział "
 delete_merged_file: true
 new_session: yes
