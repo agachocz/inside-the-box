@@ -1,6 +1,11 @@
-p.caption {
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.25em;
+}
+.caption {
   color: #777;
   margin-top: 10px;
+  font-family: "Times New Roman", Times, serif;
 }
 p code {
   white-space: inherit;
