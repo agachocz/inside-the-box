@@ -1,3 +1,6 @@
+h1, h2, h3 {
+  font-family: "Times New Roman", Times, serif;
+}
 p {
   font-family: "Times New Roman", Times, serif;
   font-size: 1.25em;
@@ -5,7 +8,6 @@ p {
 .caption {
   color: #777;
   margin-top: 10px;
-  font-family: "Times New Roman", Times, serif;
 }
 p code {
   white-space: inherit;

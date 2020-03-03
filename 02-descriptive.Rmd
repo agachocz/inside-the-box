@@ -1,0 +1,21 @@
+# Statystyka opisowa {#descriptive}
+
+## Jaki koń jest, każdy widzi
+
+Poznawanie świata polega w dużej mierze na zauważaniu podobieństw między obiektami i tworzenia dla nich abstrakcyjnych kategorii. Potrafimy odróżnić konia od osła, mimo, że nie ma dwóch takich samych koni ani dwóch identycznych osłów. I nie potrzebujemy do tego ścisłych reguł, np. minimalnej długości uszu dla osła. Wystarczy zobaczyć kilka przykładów jednego i drugiego gatunku.
+
+Przenieśmy się na grunt statystyki. Długość uszu każdego zwierzęcia jest jedną realizacją zmiennej losowej. To oznacza, że może przyjmować różne wartości z pewnym prawdopodobieństwem. Prawdopodobieństwo, że uszy będą miały 15 cm jest większe, niż że będą miały 30, a prawdopodobieństwo ujemnej długości jest zerowe. Od razu zauważamy, że osły mają generalnie dłuższe uszy niż konie. Jeśli wylosujemy po jednym zwierzęciu z każdego gatunku, spodziewamy się, że w tej parze osioł będzie miał dłuższe uszy. 
+
+To trafna intuicja - ale jak pewne jest to przypuszczenie? Jakie jest prawdopodobieństwo, że osioł faktycznie będzie miał dłuższe? O ile większe jest prawdopodobieństwo 15-centymetrowych uszu od 30-to?
+
+Obserwując konie i osły, możemy przypuszczać, że długość ich uszu to realizacje dwóch różnych zmiennych losowych, z których jedna przyjmuje generalnie większe wartości. Jeżeli mamy jedną realizację, możemy podać jej wartość w postaci liczby, ale wiemy, że inne osły mogą mieć większe albo mniejsze uszy. Jeżeli mamy próbę 100 obserwacji, nadal możemy zmierzyć i podać wszystkie wartości, ale trudno już będzie ogarnąć je wzrokiem, a w dodatku wciąż nie możemy z całą pewnością powiedzieć, że nie istnieją osły o mniejszych lub większych uszach. Natomiast jeśli interesuje nas cała populacja, na ogół nie jesteśmy nawet w stanie jej zmierzyć. 
+
+Statystyka jest właśnie po to, aby przełamać ten impas. Dostarcza nam zarówno narzędzi do przedstawiania ogólnych, czytelnych informacji o próbie (statystyka opisowa), jak i odnoszenia ich do całej populacji (wnioskowanie statystyczne). Informację o jednej obserwacji możemy podać pewnie i dokładnie, o próbie - pewnie, ale w sposób uogólniony, natomiast o całej populacji ogólnie i z dozą niepewności.
+
+
+
+## Metoda momentów
+
+## Metoda kwantyli
+
+
