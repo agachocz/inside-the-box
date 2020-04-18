@@ -1,3 +1,8 @@
+---
+title: philosophy
+output: html_document
+runtime: shiny
+---
 # Filozofia statystyki {#philosophy}
 
 Miałam wątpliwości, czy ten rozdział powinien znaleźć się w tym miejscu, więc nie krępujcie się ominąć go teraz i wrócić w dowolnym innym momencie.
@@ -9,9 +14,11 @@ Podsumowując: zapraszam do wgryzienia się w konkretną statystykę w kolejnych
 
 Wśród matematyków nie ma pełnej zgodności co do tego, na jakiej zasadzie istnieje matematyka. Nieco upraszczając, można ich podzielić na dwa przeciwstawne obozy:
 
-I - Ci, którzy uważają, że jest faktyczną właściwością świata rzeczywistego. Uważają oni, że świat "działa" według wzorów matematycznych. Można nawet spotkać się z określeniami, że matematyka jest językiem Boga lub językiem Natury - a więc że była wzorcem, według którego wszystko powstało.
+I - Ci, którzy uważają ją za faktyczną właściwością świata rzeczywistego. Sądzą oni, że świat "działa" według wzorów matematycznych. Można nawet spotkać się z określeniami, że matematyka jest językiem Boga lub językiem Natury - a więc że była wzorcem, według którego wszystko powstało.
 
 II - Ci, dla których jest ludzkim wynalazkiem, formalnym językiem opisu świata. Trójkąty i kwadraty nie istnieją tak, jak gwiazdy czy drzewa. Są abstrakcyjnymi pojęciami, które pomagają nam radzić sobie ze złożonością świata, ponieważ jeśli udowodnimy coś dla tych uproszczonych, ogólnych obiektów, możemy to - z pewną utratą dokładności - zastosować do rzeczywistych obiektów.
+
+Według pierwszej grupy obiekty rzeczywiste są realizacjami bardziej abstrakcyjnych obiektów matematycznych, według drugiej obiekty matematyczne to uogólnienia powstałe na podstawie obserwacji rzeczywistych obiektów. Mimo przeciwstawnych poglądów, matematyka nie ma raczej problemów ze spójnością. Największym wyzwaniem praktycznym jest chyba to, czy poprawnie będzie powiedzieć, że Pitagoras odkrył swoje twierdzenie o trójkącie prostokątnym, czy raczej że je wymyślił.
 
 Według pierwszej grupy obiekty rzeczywiste są realizacjami bardziej abstrakcyjnych obiektów matematycznych, według drugiej obiekty matematyczne to uogólnienia powstałe na podstawie obserwacji rzeczywistych obiektów. Mimo takich przeciwstawnych poglądów, matematyka nie ma raczej problemów ze spójnością. Największym problemem praktycznym jest chyba stwierdzenie, czy poprawnie będzie powiedzieć, że Pitagoras odkrył swoje twierdzenie o trójkącie prostokątnym, czy raczej że je wymyślił.
 
@@ -19,8 +26,14 @@ Jeśli jednak chcemy wyrobić sobie statystyczną intuicję, możemy już poczu�
 
 Ale technicznie rzecz biorąc, modele te powstają tak samo - przez taki dobór równania, żeby przy podstawieniu rzeczywistych wartości, dawało wyniki podobne do rzeczywistych.
 
-(Opis programu)
+W poniższym programie wygenerowano 100 losowych liczb z zakresu od 0 do 1. To będą wartości x. Wartości y obliczymy jako: $$\ y = 3.67x + 0.82$$
 
+Następnie na podstawie pewnej liczby losowo wybranych punktów spróbujemy dopasować liniowe równanie.
+
+
+```{r, echo=FALSE}
+shinyAppFile("shiny_apps/philosophy_01.R")
+```
 
 
 
