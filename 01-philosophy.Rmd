@@ -26,14 +26,20 @@ Jeśli jednak chcemy wyrobić sobie statystyczną intuicję, możemy już poczu�
 
 Ale technicznie rzecz biorąc, modele te powstają tak samo - przez taki dobór równania, żeby przy podstawieniu rzeczywistych wartości, dawało wyniki podobne do rzeczywistych.
 
-W poniższym programie wygenerowano 100 losowych liczb z zakresu od 0 do 1. To będą wartości x. Wartości y obliczymy jako: $$\ y = 3.67x + 0.82$$
+W poniższym programie wygenerowano 100 losowych liczb z zakresu od 0 do 1 (to będą wartości x) oraz 100 liczb z rozkładu normalnego o średniej 0 i wybranym odchyleniu standardowym (to losowe błędy). O tym, czym jest odchylenie standardowe, dowiecie się w następnym rozdziale - na razie niech wystarczy nam, że im jest większe, tym bardziej oddalone od zera mogą być wielkości błędów. 
+Wartości y obliczymy jako: $$\ y = 3.67x + 0.82$$ i do każdej dodamy wylosowany błąd.
 
 Następnie na podstawie pewnej liczby losowo wybranych punktów spróbujemy dopasować liniowe równanie.
 
+<!-- include_app -->
 
-```{r, echo=FALSE}
-shinyAppFile("shiny_apps/philosophy_01.R")
-```
+Łatwo zauważyć, że im większa próba i im mniejsze odchylenie błędów, tym bardziej dopasowane równanie przypomina równanie oryginalne.
 
+Jeśli zgadzamy się z poglądami Grupy I, to dane zebrane w rzeczywistym świecie są jak punkty na wykresie: wiemy, że zostały wygenerowane przez jakieś równanie, i wierzymy, że możemy to równanie odkryć. Jeśli uda się udoskonalić pomiar tak, że błąd będzie niezauważalny, lub zebrać tyle danych, że uśredni się niemal do zera, to poznamy oryginalne równanie - prawo natury, które tworzy punkty.
 
+Z kolei dla Grupy II to stwierdzenie jest nieco naiwne. W świecie rzeczywistym - a nie symulacji, jak tutaj - nie mamy dostępu ani do oryginalnego równania, ani do wszystkich istniejących punktów. Równanie, które dopasowaliśmy, może być użyteczne, ale nie można zakładać, że nie jest uproszczeniem. Na rzeczywiste wartości może mieć wpływ dodatkowa zmienna z, której nawet nie wzięliśmy pod uwagę. W innych warunkach punkty mogą zachowywać się inaczej. To, co wygląda na elegancką prostą, może być tak naprawdę wycinkiem wielkiej paraboli.
+
+W tej książce przyjęte jest podejście drugie. Zakładam, że matematyka jest tylko językiem do opisu rzeczywistości. Jak każdy język, zawsze upraszacza opisywany świat, a przez to zawsze przedstawia go błędnie. Dobrze to podsumowuje cytat statystyka **George'a Boxa**:
+
+> Wszystkie modele są błędne, ale niektóre są użyteczne.
 
